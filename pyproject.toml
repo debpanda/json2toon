@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "json2toon"
+version = "0.1.0"
+authors = [
+  { name="Your Name", email="your.email@example.com" },
+]
+description = "A lightweight tool to convert JSON to TOON (TOML) and vice versa."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+]
+dependencies = [
+    "toml >= 0.10.0",  # We rely on the standard toml library
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/json2toon"
+"Bug Tracker" = "https://github.com/yourusername/json2toon/issues"
+
+[project.scripts]
+# This allows users to run "j2t" in their terminal
+j2t = "json2toon.cli:main"
