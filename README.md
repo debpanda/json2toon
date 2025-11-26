@@ -1,6 +1,4 @@
 # json2toon
-<<<<<<< HEAD
-
 A simple, robust Python library to convert JSON to TOON (TOML) and vice versa. 
 
 ## Installation
