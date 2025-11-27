@@ -10,6 +10,8 @@ pip install json-to-toon
 
 ## Usage
 
+Install with `pip install json-to-toon`, then import via the `json2toon` module:
+
 ```python
 from json2toon import to_toon, to_json
 
