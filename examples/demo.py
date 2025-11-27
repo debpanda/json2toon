@@ -1,8 +1,8 @@
 """
-This is a demo script to show how json2toon works.
+This is a demo script to show how json_to_toon works.
 Run this file: python examples/demo.py
 """
-from json2toon import to_toon, to_json
+from json_to_toon import to_toon, to_json
 
 def main():
     sample_data = {"server": "localhost", "port": 8080}

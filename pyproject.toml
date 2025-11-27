@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "json-to-toon"
-version = "0.1.3"
+version = "0.2.0"
 authors = [
   { name="Your Name", email="your.email@example.com" },
 ]
@@ -27,7 +27,7 @@ dependencies = [
 
 [project.scripts]
 # This allows users to run "j2t" in their terminal
-j2t = "json2toon.cli:main"
+j2t = "json_to_toon.cli:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/json2toon"]
+packages = ["src/json_to_toon"]

@@ -1,5 +1,5 @@
 import json
-from json2toon.converter import to_toon, to_json
+from json_to_toon.converter import to_toon, to_json
 
 def test_round_trip_simple():
     data = {"title": "My Config", "owner": {"name": "Admin", "id": 55}}
